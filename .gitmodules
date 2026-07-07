@@ -1,0 +1,3 @@
+[submodule "enlisted-stats-viewer"]
+	path = enlisted-stats-viewer
+	url = git@github.com:GuitaristRin/enlisted-stats-viewer.git

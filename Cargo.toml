@@ -1,0 +1,15 @@
+[package]
+name = "enlisted-stats-desktop"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "enlisted-stats-desktop"
+path = "src/main.rs"
+
+[dependencies]
+eframe = "0.29"
+egui = "0.29"
+rfd = "0.15"
+chrono = "0.4"
+enlisted-stat = { path = "enlisted-stats-viewer" }
